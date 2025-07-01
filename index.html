@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to MiAW Mix</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -16,24 +16,25 @@
             <p>Please reach out to the owner if you run into any issues.</p>
         </main>
     </div>
-<script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-			embeddedservice_bootstrap.init(
-				'00DVW000003INZ7',
-				'MIAW_Wed',
-				'https://orgfarm-2ac97e6ffc.test1.my.pc-rnd.site.com/ESWMIAWWed1748433877885',
-				{
-					scrt2URL: 'https://orgfarm-2ac97e6ffc.test1.my.pc-rnd.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
-</script>
-<script type='text/javascript' src='https://orgfarm-2ac97e6ffc.test1.my.pc-rnd.site.com/ESWMIAWWed1748433877885/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-</body>
+    <script type='text/javascript'>
+        function initEmbeddedMessaging() {
+            try {
+                embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+                embeddedservice_bootstrap.init(
+                    '00DVW000003INZ7',
+                    'MIAW_Wed',
+                    'https://orgfarm-2ac97e6ffc.test1.my.pc-rnd.site.com/ESWMIAWWed1748433877885',
+                    {
+                        scrt2URL: 'https://orgfarm-2ac97e6ffc.test1.my.pc-rnd.salesforce-scrt.com'
+                    }
+                );
+            } catch (err) {
+                console.error('Error loading Embedded Messaging: ', err);
+            }
+        };
+    </script>
+    <script type='text/javascript' src='https://orgfarm-2ac97e6ffc.test1.my.pc-rnd.site.com/ESWMIAWWed1748433877885/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+    </body>
 </html>
