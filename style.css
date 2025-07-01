@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f8ff; /* Alice Blue - a soft pastel blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    padding: 2em;
+    border-radius: 15px;
+    background-color: #ffffff; /* White container background */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0070D2; /* Salesforce Blue */
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: #0070D2; /* Salesforce Blue */
+    font-size: 1.2em;
+    line-height: 1.6;
+}
